@@ -15,4 +15,4 @@ vowels="aeiouAEIOU"
 print(string.index("a")) #returns index of first instance of letter a 
 print(string.index("face")) #returns index of where face begins
 print(string.replace("face","ke").replace("Karue","Reinhard")) #replaces face with ke
-print(string.split())
+print(string.split())#it will split the string into substrings wherever it encounters a whitespace character
