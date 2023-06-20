@@ -11,15 +11,13 @@ print(friends)
 friends.append("Maurice")
 print(friends)
 
-#inserting a new element to the list
-    # At esired place-usng insert fn
+#inserting a new element to the list at desired place-usng insert fn
 friends.insert(6,"Christine")
 print(friends)
 friends.insert(7,"Jonah")
 print(friends)
 
-# deleting an element from the list
-#use remove fn
+# deleting an element from the list using remove fn
 friends.remove("Jonah")
 print(friends)
 
@@ -51,13 +49,3 @@ print(lucky_numbers)
 #To find out whether an element is in the list 
 #Use index fn
 print(friends.index("Japheth"))
-
-
-
-
-
-
-
-
-
-
